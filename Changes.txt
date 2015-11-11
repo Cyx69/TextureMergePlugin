@@ -1,0 +1,8 @@
+List of changes:
+================
+
+v0.2.0
+- Added update functions to change single or all tints and textures after creating
+
+v0.1.0
+- Initial plugin version created.

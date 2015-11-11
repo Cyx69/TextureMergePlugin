@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TextureTest.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{36E2AF75-D118-4C19-A4D0-7FCEDC11F5C9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TextureTest.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TextureTestEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BF493820-DB80-41A2-8C97-289A78188BB7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{B291F0D1-6C90-4340-BED3-300D5CBEF784}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TextureMerge">
+			<UniqueIdentifier>{D47CFD42-A16F-4051-8C8D-C43FBC3A3B21}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TextureMerge\Source">
+			<UniqueIdentifier>{C58078E8-D542-4D2E-8DDC-E70668D09C77}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TextureMerge\Source\TextureMerge">
+			<UniqueIdentifier>{F2E9AAE6-7722-490B-BF75-178BAF2D34B1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\TextureMerge\Source\TextureMerge\TextureMerge.Build.cs">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge</Filter>
+		</None >
+		<Filter Include="Plugins\TextureMerge\Source\TextureMerge\Private">
+			<UniqueIdentifier>{23D37CD7-694E-405E-9F9D-9A3D166F580F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Private\CompositeTexture.cpp">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Private\TextureMerge.cpp">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Private\TextureMergeBPLibrary.cpp">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Private\TextureMergePrivatePCH.h">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\TextureMerge\Source\TextureMerge\Public">
+			<UniqueIdentifier>{00789EC9-6851-4A3D-AA9C-CA0702FD98C5}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Public\CompositeTexture.h">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Public\TextureMerge.h">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TextureMerge\Source\TextureMerge\Public\TextureMergeBPLibrary.h">
+			<Filter>Plugins\TextureMerge\Source\TextureMerge\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\TextureMerge\TextureMerge.uplugin">
+			<Filter>Plugins\TextureMerge</Filter>
+		</None >
+		<Filter Include="Plugins\TextureMerge\Resources">
+			<UniqueIdentifier>{54FCCE78-6A79-4F6D-9F75-C4733CF51F31}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\TextureMerge\Resources\Icon128.png">
+			<Filter>Plugins\TextureMerge\Resources</Filter>
+		</None >
+		<Filter Include="Source\TextureTest">
+			<UniqueIdentifier>{14410AA5-3B28-4D00-930F-FFF02D67D4EC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TextureTest\TextureTest.Build.cs">
+			<Filter>Source\TextureTest</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TextureTest\TextureTest.cpp">
+			<Filter>Source\TextureTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TextureTest\TextureTest.h">
+			<Filter>Source\TextureTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TextureTest\TextureTestGameMode.cpp">
+			<Filter>Source\TextureTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TextureTest\TextureTestGameMode.h">
+			<Filter>Source\TextureTest</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
