@@ -47,7 +47,8 @@ III. Installation
 IV. Greetings
 =============
 Special thanks to:
-- DarthCoder for publishing the code on the wiki
+- DarthCoder for publishing the code on the wiki and 
+  for giving me the permission to release his code part for free under the MIT license
 - Benedikt Engelhard for sponsoring the plugin part
 
 
